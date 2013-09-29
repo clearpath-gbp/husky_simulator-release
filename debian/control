@@ -1,0 +1,12 @@
+Source: ros-hydro-husky-gazebo
+Section: misc
+Priority: extra
+Maintainer: y22ma <y22ma@todo.todo>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-husky-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: The husky_gazebo package
