@@ -1,0 +1,12 @@
+Source: ros-hydro-husky-gazebo-plugins
+Section: misc
+Priority: extra
+Maintainer: y22ma <y22ma@todo.todo>
+Build-Depends: debhelper (>= 7.0.50~), gazebo, ros-hydro-catkin, ros-hydro-gazebo-msgs, ros-hydro-gazebo-plugins, ros-hydro-gazebo-ros, ros-hydro-roscpp, ros-hydro-std-msgs, ros-hydro-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-husky-gazebo-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gazebo, ros-hydro-gazebo-msgs, ros-hydro-gazebo-plugins, ros-hydro-gazebo-ros, ros-hydro-roscpp, ros-hydro-std-msgs, ros-hydro-tf
+Description: The husky_gazebo_plugins package
