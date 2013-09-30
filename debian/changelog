@@ -1,0 +1,13 @@
+ros-hydro-husky-gazebo (0.0.2-0raring) raring; urgency=high
+
+  * added package installation rules
+
+ -- Yan Ma <y22ma@clearpathrobotics.com>  Mon, 30 Sep 2013 04:00:00 -0000
+
+ros-hydro-husky-gazebo (0.0.1-0raring) raring; urgency=high
+
+  * Initial release for Hydro.
+
+ -- y22ma <y22ma@todo.todo>  Sun, 29 Sep 2013 04:00:00 -0000
+
+

@@ -1,0 +1,12 @@
+Source: ros-hydro-husky-gazebo
+Section: misc
+Priority: extra
+Maintainer: Yan Ma <y22ma@clearpathrobotics.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-husky-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-gazebo-ros, ros-hydro-husky-description, ros-hydro-robot-pose-ekf
+Description: The husky_gazebo package
