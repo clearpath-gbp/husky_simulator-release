@@ -1,3 +1,25 @@
+## husky_simulator - 0.0.3-0
+
+User `y22ma@y22ma-GT60-0NC-GT60-0NC` released the packages in the `husky_simulator` repository by running `/usr/bin/bloom-release --track hydro --ros-distro hydro husky_simulator` on `Fri, 01 Nov 2013 17:15:11 -0000`
+
+These packages were released:
+- `husky_gazebo`
+- `husky_gazebo_plugins`
+- `husky_simulator`
+
+Version of package(s) in repository `husky_simulator`:
+- rosdistro version: `0.0.2-1`
+- old version: `0.0.2-1`
+- new version: `0.0.3-0`
+
+Versions of tools used:
+- bloom version: `0.4.4`
+- catkin_pkg version: `0.1.23`
+- rosdep version: `0.10.23`
+- rosdistro version: `0.2.17`
+- vcstools version: `0.1.30`
+
+
 ## husky_simulator - 0.0.2-1
 
 User `mikepurvis@testbox` released the packages in the `husky_simulator` repository by running `/home/mikepurvis/husky_sim_ws/src/bloom_easy/scripts/release` on `Mon, 30 Sep 2013 21:07:38 -0000`
