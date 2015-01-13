@@ -2,7 +2,7 @@
 <!--
 Software License Agreement (BSD)
 
-\file      husky_empty_world.launch
+\file      description.gazebo.xacro
 \authors   Paul Bovbel <pbovbel@clearpathrobotics.com
 \copyright Copyright (c) 2015, Clearpath Robotics, Inc., All rights reserved.
 
@@ -23,25 +23,9 @@ OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTE
 ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
-<launch>
-  
-  <arg name="world_name" default="worlds/empty.world"/>
+<robot name="husky_description" xmlns:xacro="http://ros.org/wiki/xacro">
 
-  <include file="$(find husky_control)/launch/control.launch"/>
+  <xacro:include filename="$(find husky_gazebo)/urdf/husky.gazebo.xacro" />
+  <xacro:husky_gazebo_robot prefix="" />
 
-  <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(arg world_name)"/> <!-- world_name is wrt GAZEBO_RESOURCE_PATH environment variable -->
-    <arg name="paused" value="false"/>
-    <arg name="use_sim_time" value="true"/>
-    <arg name="gui" value="true"/>
-    <arg name="headless" value="false"/>
-    <arg name="debug" value="false"/>
-  </include>
-
-  <include file="$(find husky_gazebo)/launch/description_gazebo.launch">
-    <arg name="gps_enabled" value="true"/>
-    <arg name="imu_enabled" value="true"/>
-    <arg name="front_laser" value="true"/>
-  </include>
-
-</launch>
+</robot>
