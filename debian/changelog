@@ -1,0 +1,26 @@
+ros-indigo-husky-simulator (0.1.0-0trusty) trusty; urgency=high
+
+  * Removed husky_gazebo_plugins in favor of ros_control
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Tue, 13 Jan 2015 05:00:00 -0000
+
+ros-indigo-husky-simulator (0.0.3-0trusty) trusty; urgency=high
+
+
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Fri, 01 Nov 2013 04:00:00 -0000
+
+ros-indigo-husky-simulator (0.0.2-0trusty) trusty; urgency=high
+
+
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Mon, 30 Sep 2013 04:00:00 -0000
+
+ros-indigo-husky-simulator (0.0.1-0trusty) trusty; urgency=high
+
+  * Add husky_simulator metapackage.
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Sun, 29 Sep 2013 04:00:00 -0000
+
+
