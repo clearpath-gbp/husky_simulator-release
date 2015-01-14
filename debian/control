@@ -1,0 +1,12 @@
+Source: ros-indigo-husky-simulator
+Section: misc
+Priority: extra
+Maintainer: Paul Bovbel <pbovbel@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-husky-simulator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-husky-gazebo
+Description: Metapackage for Clearpath Husky A200 simulation software
