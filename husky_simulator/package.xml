@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
   <name>husky_simulator</name>
-  <version>0.1.0</version>
-  <description>The husky_simulator package</description>
+  <version>0.1.1</version>
+  <description>Metapackage for Clearpath Husky A200 simulation software</description>
 
   <maintainer email="pbovbel@clearpathrobotics.com">Paul Bovbel</maintainer>
 
