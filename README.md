@@ -1,3 +1,26 @@
+## husky_simulator (indigo) - 0.1.3-0
+
+The packages in the `husky_simulator` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo husky_simulator` on `Fri, 06 Feb 2015 15:46:04 -0000`
+
+These packages were released:
+- `husky_gazebo`
+- `husky_simulator`
+
+Version of package(s) in repository `husky_simulator`:
+- upstream repository: https://github.com/husky/husky_simulator.git
+- release repository: https://github.com/clearpath-gbp/husky_simulator-release.git
+- rosdistro version: `0.1.2-0`
+- old version: `0.1.2-0`
+- new version: `0.1.3-0`
+
+Versions of tools used:
+- bloom version: `0.5.17`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.11.1`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.36`
+
+
 ## husky_simulator (indigo) - 0.1.2-0
 
 The packages in the `husky_simulator` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo husky_simulator` on `Fri, 30 Jan 2015 16:35:45 -0000`
