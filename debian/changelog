@@ -1,0 +1,58 @@
+ros-indigo-husky-gazebo (0.1.4-0saucy) saucy; urgency=high
+
+  * Add missing dependency
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Wed, 11 Feb 2015 05:00:00 -0000
+
+ros-indigo-husky-gazebo (0.1.3-0saucy) saucy; urgency=high
+
+  * Fix installing
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Fri, 06 Feb 2015 05:00:00 -0000
+
+ros-indigo-husky-gazebo (0.1.2-0saucy) saucy; urgency=high
+
+  * Update authors
+  * Add missing dependency
+  * Reduce sensor range
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Fri, 30 Jan 2015 05:00:00 -0000
+
+ros-indigo-husky-gazebo (0.1.1-0saucy) saucy; urgency=high
+
+  * Remove multirobot prefixing, experiment later
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Wed, 14 Jan 2015 05:00:00 -0000
+
+ros-indigo-husky-gazebo (0.1.0-0saucy) saucy; urgency=high
+
+  * Major refactor for indigo:
+    * All gazebo plugins moved to urdf/description.gazebo.xacro from husky_description
+    * Ported to ros_control
+  * Contributors: James Servos, Mike Purvis, Paul Bovbel, Prasenjit Mukherjee, y22ma
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Tue, 13 Jan 2015 05:00:00 -0000
+
+ros-indigo-husky-gazebo (0.0.3-0saucy) saucy; urgency=high
+
+
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Fri, 01 Nov 2013 04:00:00 -0000
+
+ros-indigo-husky-gazebo (0.0.2-0saucy) saucy; urgency=high
+
+  * added package installation rules
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Mon, 30 Sep 2013 04:00:00 -0000
+
+ros-indigo-husky-gazebo (0.0.1-0saucy) saucy; urgency=high
+
+  * Initial release for Hydro.
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Sun, 29 Sep 2013 04:00:00 -0000
+
+
