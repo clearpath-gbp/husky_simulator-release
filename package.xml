@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>husky_gazebo</name>
-  <version>0.2.0</version>
+  <version>0.2.1</version>
   <description>Clearpath Husky Simulator bringup</description>
 
   <author email="rgariepy@clearpathrobotics.com">Ryan Gariepy</author>
@@ -14,8 +14,8 @@
   <license>BSD</license>
 
   <url type="website">http://ros.org/wiki/husky_gazebo</url>
-  <url type="bugtracker">https://github.com/husky/husky_gazebo/issues</url>
-  <url type="repository">https://github.com/husly/husky_gazebo</url>
+  <url type="bugtracker">https://github.com/husky/husky_simulator/issues</url>
+  <url type="repository">https://github.com/husly/husky_simulator</url>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roslaunch</build_depend>
@@ -27,6 +27,7 @@
   <run_depend>husky_control</run_depend>
   <run_depend>husky_description</run_depend>
   <run_depend>robot_state_publisher</run_depend>
+  <run_depend>rostopic</run_depend>
 
   <export>
   </export>
