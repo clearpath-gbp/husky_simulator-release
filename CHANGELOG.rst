@@ -2,6 +2,12 @@
 Changelog for package husky_gazebo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.2 (2015-04-08)
+------------------
+* Reduce physics update rate
+* Integrate husky_customization workflow
+* Contributors: Paul Bovbel
+
 0.2.1 (2015-03-23)
 ------------------
 * Fix package urls
