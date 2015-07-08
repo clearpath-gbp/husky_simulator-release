@@ -2,6 +2,11 @@
 Changelog for package husky_gazebo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.4 (2015-07-08)
+------------------
+* Add pointcloud to laserscan config for simulated kinect
+* Contributors: Paul Bovbel
+
 0.2.3 (2015-04-13)
 ------------------
 * Fix conflict with underlay
